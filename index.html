@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game of Life</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+   <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="row mt-2">
+        <div class="col text-center">
+            <h1>Game of Life </h1>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="row mt-2">
+        <div class="col text-center">
+            <canvas id="lienzo" style="border:1px solid #000000" >
+            </canvas>
+        </div>
+    </div>
+    <div class="row mt-2">
+        <div id="epoca"class="col-6 text-right">
+            <!-- <h3>Epoca: 1</h3> -->
+        </div>
+        <div id="individuos"class="col-6 text-left">
+            <!-- <h3>Individuos: 1000</h3> -->
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col text-center">
+            <button class="btn btn-primary" id="siguiente">Siguiente Generación</button>
+            <button class="btn btn-danger" id="reinicio">Reincio</button>
+        </div>
+    </div>
+   <script src="JS/game.js"></script> 
+</body>
+</html>
